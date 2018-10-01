@@ -1,8 +1,48 @@
-/* *{
+*{
     margin: 0;
-} */
+}
 
+header{
+    background: url(backgroungtopheader.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
 
-.testimonials{
-    background:grey;
+.topheader{
+    background: rgba(73, 84, 91, 0.84);
+    display: block;
+    padding: 3% 0;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;    
+    float: right;
+    
+    
+    
+     
+}
+
+.nav li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    
+       
+   
+}
+
+.logo{
+    float: left;
+}
+
+.containertopheader{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto; 
+    width: 1170px;
+    align-content: center;
 }
