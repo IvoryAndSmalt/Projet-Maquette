@@ -367,7 +367,7 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    width: 53%;
+    width: 40%;
     /* margin-right: 50%; */
     justify-content: space-around;
 }
@@ -431,8 +431,9 @@ header{
 .whois{
     color: white;
     padding: 6% 0;
-    background: url(backgroundwhois.jpg) no-repeat;
-    background-size: 100% 100%;
+    background: black;
+    background: url(backgroundwhois.png) no-repeat;
+    background-size: cover;
     background-position: center; 
     display: flex;
     flex-direction: column;
@@ -514,6 +515,98 @@ header{
     background-color: #4BCAFF;
  }
 
+/* CONTACT */
+
+ .contact{
+    color: white;
+    padding: 6% 0;
+    background: grey;    
+    /* background: url(backgroundcontact.png) no-repeat; */
+    background-size: 100% 100%;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+ }
+
+ .contactcont{
+    padding-left: 15px;
+    width: 1140px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .contactcont p{
+    line-height: 1.8;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+.contactcont h3{
+    font-family: 'caviar_dreamsregular';
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+    width: 100%;
+}
+
+.contactcont .bande{
+    display: block;
+    margin-top: 2px;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 40px;
+    background: white;
+}
+
+.contacttextes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactcol1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 40%;
+    margin-right: 9%;
+    margin-top: -15px;
+}
+
+.contactcol1 input{
+    padding: 15px;
+    background: none;
+    border: solid 2px;
+    border-color: white;
+}
+
+.contactcol1 p{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.contactcol2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 49%;
+}
+
+.contactcol2 p:first-child {
+    margin-bottom: 25px;
+}
+
+#leclassedusiecle{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
 .footer{
     background: #353f47;
     padding: 6% 0;
@@ -522,7 +615,6 @@ header{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    
 }
 
 .footercontainer{
@@ -582,7 +674,7 @@ display:inline-block;
     position: sticky;
     padding-left: 10px;
     bottom: 10px;
-    left: 100%;
+    left: 96%;
 }
 
 .boutontop img{
@@ -597,14 +689,4 @@ display:inline-block;
 .footer p{
     font-family: 'Roboto';
 }
-
-/* .boutonhaut{
-    padding-left:10px;
-    position: sticky;
-    bottom: 10px;
-    left: 100%;
-}
-.boutonhaut img{
-    padding-right:10px;
-} */
 
