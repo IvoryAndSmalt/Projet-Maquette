@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url(http://allfont.net/allfont.css?fonts=caviar-dreams);
+@font-face {
+    font-family: 'Roboto';
+    src: url(robotoregular.ttf);
+}
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url(CaviarDreams.ttf);
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -132,21 +138,21 @@ header{
     font-size: 2.7em;
     text-align: center;
     margin-bottom: 2%;
-    padding: 8px 15px;
+    padding: 8px 0;
 }
 
 #p1{
     display: flex;
     justify-content: center;
-    margin-left: 23.5%;
-    margin-right: 23.5%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #p2{
     display: flex;
     justify-content: center;
-    margin-left: 12.3%;
-    margin-right: 12.3%;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
 .services{
@@ -170,7 +176,7 @@ header{
 .groupeservices h3{
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .bandeserv{
@@ -185,6 +191,7 @@ header{
 }
 
 .coffee{
+    font-family: 'Roboto';
     padding-right: 15px;
     display: inline-block;
     width: 22%;
@@ -192,19 +199,25 @@ header{
 
 .logocafe{
     display: inline-block;
-    background: url(tousleslogos.png), no-repeat;
     background-size: 100% 100%;
     background-position: center;
 }
 
 .instant{
+    font-family: 'Roboto';
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
 }
 
+.instant img{
+    margin-bottom: -3px;
+}
+
+
 .serious{
+    font-family: 'Roboto';
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
@@ -212,12 +225,12 @@ header{
 }
 
 .frame{
+    font-family: 'Roboto';
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
 }
-
 .groupeservices div h3{
     font-size: 1.5em;
     margin-top: 10px;
@@ -225,26 +238,37 @@ header{
 }
 
 .portfolio{
+    background: white;
+    width: 100%;
+}
+
+.pfcont{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 6% 0;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     width: 1140px;
-    text-align: center;
-    display: flex;
-    padding: 6% 0;
     font-family: 'caviar_dreamsregular', sans-serif;
-    background: white;
     color: black;
     font-size: 15px;
 }
 
-.portfolio h3{
+.pftitres{
+    display: flex;
+    flex-direction: row;
+}
+
+.pftitres h3 {
     display: flex;
     justify-content: left;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .listepf{
@@ -260,10 +284,13 @@ header{
     border-color: white;
     display: flex;
     padding: 10px 25px;
-    margin: 0px 8px;
+    margin: 0px;
+    margin-left: 40px;
 }
 
 .listepf li a{
+   font-family: 'Roboto';
+   font-weight: 600;
    text-decoration: none;
    justify-content: center;
 }
@@ -272,6 +299,29 @@ header{
     border: solid 2px;
     border-color: #4bcaff;
 }
+
+.grilleimages{
+    width: 1140px;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grilleimages img{
+    margin-bottom: 15px;
+}
+
+.portfolio h3{
+    display: flex;
+    justify-content: left;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
 
 .portfolio .bande{
     margin-top: 2px;
@@ -282,17 +332,273 @@ header{
     display: inline-block;
 }
 
-
-
-
-
 .jds{
-    background: grey;
+    color: white;
+    padding: 6% 0;
+    background: rgb(81, 95, 103); 
+    display: flex;
+    flex-direction: column;
+}
+
+.jdscont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15px;
+    width: 1140px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
+.jdscont2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    background: black;
+    height: 300px;
+    width: 500px;
+}
 
-.boutonhaut{
+.jdstxt{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 53%;
+    /* margin-right: 50%; */
+    justify-content: space-around;
+}
+
+.jdstxt h3{
+    font-family: 'caviar_dreamsregular';
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+.jdstxt .bande{
+    margin-top: 2px;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 40px;
+}
+
+.jdstxt .bande{
+    background: white;
+}
+
+.jdstxt p{
+    font-size: 15px;
+    line-height: 1.8em;
+    font-family: 'Roboto';
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+
+.jdstxt a{
+    color: #353f47;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 2px;
+    border-color: #353f47;
+    display: flex;
+    padding: 10px 40px;
+    margin: 0px;
+    margin-right: auto;
+}
+
+.jdstxt a:hover{
+    background: white;
+    color: rgb(75, 202, 255);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border: solid 2px;
+    border-color: white;
+    transition: background ease-in 0.1s;
+}
+
+/* WHOIS */
+
+.whois{
+    color: white;
+    padding: 6% 0;
+    background: url(backgroundwhois.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.whoiscontainer{
+    padding-left: 15px;
+    width: 1140px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.whoiscontainer h3{
+    font-family: 'caviar_dreamsregular';
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+    width: 100%;
+}
+.whoistextes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.whoiscontainer .bande{
+    display: block;
+    margin-top: 2px;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 40px;
+    background: white;
+}
+
+.whoiscont1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 49%;
+}
+
+.whoiscont1 p:first-child{
+   margin-bottom: 25px;
+}
+
+
+.whoiscontainer p{
+    line-height: 1.8;
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin-right: 30px;
+}
+
+.whoiscont2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 49%;
+}
+
+.whoiscont2 p:first-child{
+    margin-bottom: 25px;
+ }
+
+.logojohndoe img{
+    border: solid 2px;
+    border-color: white;
+    margin-right: 20px;
+    padding: 18px;
+ }
+
+ .logojohndoe img:hover{
+    border: solid 2px;
+    border-color: #00B3FD;
+    margin-right: 20px;
+    padding: 18px;
+    background-color: #4BCAFF;
+ }
+
+.footer{
+    background: #353f47;
+    padding: 6% 0;
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.footercontainer{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footerlinks > li {
+    display: inline;
+}
+
+.footercolor{
+    justify-content: center;
+    font-size: 0.85em;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #536169;
+}
+
+.footerbarre{
+    color: #536169;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footerlinks{
+width: 50%;
+list-style: none;
+display:inline-block;
+
+
+}
+
+.pfooter{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    color: #536169;
+    font-size: 0.85em;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+.w3layouts{
+    color:white;
+}
+
+.boutontop{
+    position: sticky;
+    padding-left: 10px;
+    bottom: 10px;
+    left: 100%;
+}
+
+.boutontop img{
+    padding-right: 10px;
+}
+
+.footer a{
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.footer p{
+    font-family: 'Roboto';
+}
+
+/* .boutonhaut{
     padding-left:10px;
     position: sticky;
     bottom: 10px;
@@ -300,4 +606,5 @@ header{
 }
 .boutonhaut img{
     padding-right:10px;
-}
+} */
+
