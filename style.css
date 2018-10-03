@@ -357,9 +357,9 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: right;
-    background: black;
-    height: 300px;
-    width: 500px;
+    justify-content: flex-end;
+    /* height: 300px; */
+    width: 600px;
 }
 
 .jdstxt{
