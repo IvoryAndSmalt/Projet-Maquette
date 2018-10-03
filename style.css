@@ -1,8 +1,4 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(robotoregular.ttf);
-}
-@font-face {
     font-family: 'caviar_dreamsregular';
     src: url(CaviarDreams.ttf);
 }
@@ -99,7 +95,7 @@ header{
 
 .nav li a{
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;;
     font-weight: 600;
     text-transform: uppercase;
     background:transparent;
@@ -156,7 +152,6 @@ header{
 }
 
 .services{
-    font-family: 'caviar_dreamsregular', sans-serif;
     background: #4bcaff;
     padding: 6% 0;
     color: white;
@@ -174,9 +169,10 @@ header{
 }
 
 .groupeservices h3{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
 }
 
 .bandeserv{
@@ -191,10 +187,14 @@ header{
 }
 
 .coffee{
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
+}
+
+.coffee h3{
+    font-weight: 600;
 }
 
 .logocafe{
@@ -204,12 +204,16 @@ header{
 }
 
 .instant{
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
 }
+.instant h3{
+    font-weight: 600;
+}
+
 
 .instant img{
     margin-bottom: -3px;
@@ -217,20 +221,31 @@ header{
 
 
 .serious{
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
 }
 
+.serious h3{
+    font-weight: 600;
+}
+
+
 .frame{
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     padding-left: 15px;
     padding-right: 15px;
     display: inline-block;
     width: 22%;
 }
+
+.frame h3{
+    font-weight: 600;
+}
+
+
 .groupeservices div h3{
     font-size: 1.5em;
     margin-top: 10px;
@@ -268,7 +283,6 @@ header{
     justify-content: left;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
 }
 
 .listepf{
@@ -283,16 +297,17 @@ header{
     border: solid 2px;
     border-color: white;
     display: flex;
-    padding: 10px 25px;
+    padding: 5px 25px;
     margin: 0px;
     margin-left: 40px;
 }
 
 .listepf li a{
-   font-family: 'Roboto';
+   font-family: 'Myriad Pro', sans-serif;
    font-weight: 600;
    text-decoration: none;
    justify-content: center;
+   padding-top: 5px;
 }
 
 .listepf li:hover{
@@ -318,7 +333,8 @@ header{
     justify-content: left;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
 }
 
 
@@ -358,7 +374,6 @@ header{
     flex-wrap: wrap;
     text-align: right;
     justify-content: flex-end;
-    /* height: 300px; */
     width: 600px;
 }
 
@@ -373,10 +388,10 @@ header{
 }
 
 .jdstxt h3{
-    font-family: 'caviar_dreamsregular';
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
 }
 
 
@@ -394,14 +409,14 @@ header{
 .jdstxt p{
     font-size: 15px;
     line-height: 1.8em;
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     margin-bottom: 25px;
     font-weight: 200;
 }
 
 .jdstxt a{
     color: #353f47;
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     font-weight: 700;
     font-size: 0.8em;
     text-decoration: none;
@@ -417,7 +432,7 @@ header{
 .jdstxt a:hover{
     background: white;
     color: rgb(75, 202, 255);
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     font-weight: 700;
     font-size: 0.8em;
     text-transform: uppercase;
@@ -425,6 +440,73 @@ header{
     border-color: white;
     transition: background ease-in 0.1s;
 }
+
+/* TWITTER */
+.twitter{
+    color:#FFF;
+    background-color: rgb(75, 202, 255);
+    font-family: 'Myriad Pro', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display:flex;
+    
+    
+    }
+    
+    .twittercontainer{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    
+    }
+    
+    .twitter h3{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
+    color:white;
+    font-size: 2em;
+    text-transform: uppercase;
+    }
+    
+    
+    
+    .twitter .bande{
+    margin-top: 2px;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 40px;
+    background:white;
+    display: inline-block;
+    
+    }
+    
+    .logotwitter{
+    display: inline-table;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top:4px;
+    
+    
+    }
+    
+    .twitter p{
+    color:#FFF;
+    font-size: 1.8em;
+    margin-top: -2%;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
+    
+    
+    }
+    
+    .gras{
+    font-weight: bolder;
+    }
 
 /* WHOIS */
 
@@ -449,10 +531,10 @@ header{
 }
 
 .whoiscontainer h3{
-    font-family: 'caviar_dreamsregular';
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
     width: 100%;
 }
 .whoistextes{
@@ -483,7 +565,7 @@ header{
 
 .whoiscontainer p{
     line-height: 1.8;
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     font-weight: 200;
     margin-right: 30px;
 }
@@ -515,15 +597,80 @@ header{
     background-color: #4BCAFF;
  }
 
+ /* TESTIMONIALS */
+
+ .testimonials{
+    background-color: white ;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display:flex;
+    }
+    
+    .testimonialscontainer{
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    
+    }
+    
+    .testimonials h3{
+    color: rgb(81, 95, 103);
+    font-size: 2em;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    }
+    
+    .testimonials .bande{
+        margin-top: 2px;
+        width: 50px;
+        height: 2px;
+        margin-bottom: 40px;
+        background: rgb(81, 95, 103);
+        display: inline-block;
+    }
+    
+    .logoguillemets{
+    display: inline-table;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top:4px;
+    
+    }
+    
+    
+    .testimonials p{
+    color:rgb(81, 95, 103);
+    font-size: 1.8em;
+    margin-top: -2%;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;   
+    
+    }
+    
+    
+.walterwhite{
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(75, 202, 255);
+    font-size: 0.95em;
+    font-weight: bolder;
+    padding-top: 3%;
+    
+} 
+
 /* CONTACT */
 
  .contact{
+    background: url(backgroundcontact.png) no-repeat;
+    background-size: cover;
+    background-position: center; 
     color: white;
     padding: 6% 0;
-    background: grey;    
-    /* background: url(backgroundcontact.png) no-repeat; */
-    background-size: 100% 100%;
-    background-position: center; 
     display: flex;
     flex-direction: column;
     font-size: 15px;
@@ -539,15 +686,15 @@ header{
 
  .contactcont p{
     line-height: 1.8;
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     font-weight: 200;
 }
 
 .contactcont h3{
-    font-family: 'caviar_dreamsregular';
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 500;
     width: 100%;
 }
 
@@ -604,7 +751,7 @@ header{
 }
 
 #leclassedusiecle{
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: 700;
@@ -626,10 +773,10 @@ header{
 .contactmess button{
     margin-top: 30px;
     border: #4bcaff;
-    font-family: 'Roboto';
+    font-family: 'Myriad Pro', sans-serif;
     font-size: 0.8em;
     font-weight: 700;
-    padding: 15px 130px;
+    padding: 20px 130px;
     color: white;
     background-color: #4bcaff;
     text-transform: uppercase;
@@ -642,12 +789,10 @@ header{
     transition: ease-in-out 0.3s;
 }
 
-
-
 .footer{
     background: #353f47;
     padding: 6% 0;
-    display: flex;
+    /* display: flex; */
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -684,11 +829,9 @@ header{
 }
 
 .footerlinks{
-width: 50%;
-list-style: none;
-display:inline-block;
-
-
+    width: 50%;
+    list-style: none;
+    display:inline-block;
 }
 
 .pfooter{
@@ -702,28 +845,22 @@ display:inline-block;
     text-transform: uppercase;
    
 }
+.footer a{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 600;
+}
+
+.footer p{
+    font-family: 'Myriad Pro', sans-serif;
+}
 
 .w3layouts{
     color:white;
 }
 
 .boutontop{
-    position: sticky;
-    padding-left: 10px;
+    position: fixed;
+    right: 15px;
     bottom: 10px;
-    left: 96%;
+    margin-bottom: -3px;
 }
-
-.boutontop img{
-    padding-right: 10px;
-}
-
-.footer a{
-    font-family: 'Roboto';
-    font-weight: 600;
-}
-
-.footer p{
-    font-family: 'Roboto';
-}
-
