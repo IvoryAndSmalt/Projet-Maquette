@@ -573,6 +573,7 @@ header{
     width: 40%;
     margin-right: 9%;
     margin-top: -15px;
+    justify-content: space-between;
 }
 
 .contactcol1 input{
@@ -580,6 +581,8 @@ header{
     background: none;
     border: solid 2px;
     border-color: white;
+    cursor: auto;
+    margin-top: -85px;
 }
 
 .contactcol1 p{
@@ -606,6 +609,40 @@ header{
     font-size: 0.8em;
     font-weight: 700;
 }
+
+.contactmess{
+    margin-top: 35px;
+}
+
+.contactmess textarea{
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: solid 2px;
+    border-color: white;
+    cursor: auto;
+}
+
+.contactmess button{
+    margin-top: 30px;
+    border: #4bcaff;
+    font-family: 'Roboto';
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 15px 130px;
+    color: white;
+    background-color: #4bcaff;
+    text-transform: uppercase;
+}
+
+.contactmess button:hover{
+    background: white;
+    color: #4bcaff;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+
 
 .footer{
     background: #353f47;
